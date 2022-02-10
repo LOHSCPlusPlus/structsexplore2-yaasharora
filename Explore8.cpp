@@ -59,12 +59,17 @@ Point FindLowestPoint(Line l) {
 
 int main() {
     Line a(Point(3,9), Point(12,22));
+     Line b(Point(7,-9), Point(8,-15));
     cout << "Line a";
     PrintLine(a);
     cout << "Line a's midpoint";
     // This is new
     Point midPoint = FindMidPoint(a);
     PrintPoint(midPoint);
+    cout << endl;
+    
+    Point lowestPoint = FindLowestPoint(a);
+    PrintPoint(lowestPoint);
     cout << endl;
     return 0;
 }
