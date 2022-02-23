@@ -58,7 +58,7 @@ int main() {
     b = a;
     cout << "Triangle b ";
     PrintTriangle(b);
-    
+
     return 0;
 }
 
