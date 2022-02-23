@@ -33,6 +33,8 @@ int main() {
 
     strcpy(a.firstName, "Sherlock");
     strcpy(a.lastName, "Holmes");
+    strcpy(b.firstName, "James");
+    strcpy(b.lastName, "Moriarity");
 
     // Add code so that Person b's names is James Moriarity
 
