@@ -1,9 +1,9 @@
-#include <iostream>
+git#include <iostream>
 #include <cstring>
 using namespace std;
 
 struct Person {
-    enum {MAX_NAME_LEN = 40};
+    enum {MAX_NAME_LEN = 4};
     char firstName[MAX_NAME_LEN];
     char lastName[MAX_NAME_LEN];
     Person();
